@@ -1,0 +1,17 @@
+[theme]
+# Mandatory base setting (light/dark)
+base = "light"
+
+# Official Streamlit color params (case-sensitive!)
+primaryColor = "#FF4B4B"  # Red
+backgroundColor = "#FFFFFF"  # White
+secondaryBackgroundColor = "#F0F2F6"  # Light gray
+textColor = "#262730"  # Dark gray
+font = "sans serif"
+
+# Advanced settings (prevents white text bug)
+[server]
+enableCORS = false  # Fixes some rendering issues
+
+[runner]
+fastReruns = true  # Better UI updates
